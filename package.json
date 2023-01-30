@@ -16,6 +16,7 @@
     "make-js-for-one": "tsc src/skeleton.ts --outDir generatedJS",
     "format": "prettier --write src",
     "format:check": "prettier --check src",
+    "start" : "ts-node src/fizzBuzz",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "type-check": "tsc --noEmit"
