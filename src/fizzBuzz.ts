@@ -19,7 +19,7 @@ export const fizzBuzz = (n: number): string => {
     } else if (isDivisibleByFive) {
       fizzBuzzArr.push("Buzz")
     } else {
-      fizzBuzzArr.push(i.toString())
+      fizzBuzzArr.push(i)
     }
   }
 
