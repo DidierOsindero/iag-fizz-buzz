@@ -17,19 +17,16 @@ expect(fizzBuzz(1000).split(",")[191]).toBe("Fizz");
 });
 
 test(`Testing for multiples of 5`, () => {
-//Test for random multiples of 5
 expect(fizzBuzz(100).split(",")[64]).toBe("Buzz");
 expect(fizzBuzz(1000).split(",")[499]).toBe("Buzz");
 });
 
 test(`Testing for multiples of 3 and 5`, () => {
-//Test for random multiples of 3 and 5
 expect(fizzBuzz(100).split(",")[89]).toBe("FizzBuzz");
 expect(fizzBuzz(1000).split(",")[299]).toBe("FizzBuzz");
 });
 
 test(`Testing for invalid inputs`, () => {
-//Test for invalid inputs
 expect(fizzBuzz(0)).toBe("");
 expect(fizzBuzz(-1)).toBe("");
 });
