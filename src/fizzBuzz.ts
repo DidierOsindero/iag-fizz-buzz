@@ -5,24 +5,23 @@
  */
 
 export const fizzBuzz = (n: number): string => {
-
-  const fizzBuzzArr = []
+  const fizzBuzzArr = [];
 
   for (let i = 1; i <= n; i++) {
-    const isDivisibleByThree = i % 3 === 0
-    const isDivisibleByFive = i % 5 === 0
+    const isDivisibleByThree = i % 3 === 0;
+    const isDivisibleByFive = i % 5 === 0;
 
     if (isDivisibleByThree && isDivisibleByFive) {
-      fizzBuzzArr.push("FizzBuzz")
+      fizzBuzzArr.push("FizzBuzz");
     } else if (isDivisibleByThree) {
-      fizzBuzzArr.push("Fizz")
+      fizzBuzzArr.push("Fizz");
     } else if (isDivisibleByFive) {
-      fizzBuzzArr.push("Buzz")
+      fizzBuzzArr.push("Buzz");
     } else {
-      fizzBuzzArr.push(i)
+      fizzBuzzArr.push(i);
     }
   }
 
-  const fizzBuzzString = fizzBuzzArr.join(",")
-  return fizzBuzzString
-}
+  const fizzBuzzString = fizzBuzzArr.join(",");
+  return fizzBuzzString;
+};
