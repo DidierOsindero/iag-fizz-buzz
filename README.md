@@ -1,6 +1,6 @@
 # IAG Loyalty Fizz Buzz Challenge
 
-This repo is my response to the IAG Loyalty tech test. The file ``fizzBuzz.ts`` contains my solution while ``fizzBuzz.test.ts`` contains tests for the solution using Jest.
+This repo is my response to the IAG Loyalty tech test. The file ``src/fizzBuzz.ts`` contains my solution while ``src/fizzBuzz.test.ts`` contains tests for the solution using Jest.
 
 <hr/>
 
@@ -10,7 +10,7 @@ This repo is my response to the IAG Loyalty tech test. The file ``fizzBuzz.ts`` 
 yarn
 ```
 
-## To run fizzBuzz.ts
+## To run ``src/fizzBuzz.ts``
 
 ```
 yarn start
